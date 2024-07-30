@@ -1,0 +1,186 @@
+<html>
+<head>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <img id="superior" src="img/superior.png">
+
+    <form name="formulario_avaliacao" action="pgn/insert.php" method="get">
+
+        <table align="center">
+            <tr>
+                <td colspan="2"> <h4 style="margin-top: 40px;">Faça uma assinatura e receba entregas de flores</h4> </td>
+            </tr>
+
+            <tr>
+
+                <td>Nome completo:</td>
+                <td><input type=text name="nome_completo" size=70></td>
+            </tr>
+
+
+            <tr>
+                <td>E-mail:</td>
+                <td>CPF:</td>
+                <td><input type=text name="email" id="id_email" size=50></td>
+                <td><input type=text name="cpf" id="id_cpf" size=20></td>
+
+            </tr>
+
+            <tr>
+                <td>Endereço:</td>
+                <td>Telefone:</td>
+                <td><input type=text name="endereco" id="id_endereco" size=50></td>
+                <td><input type=text name="telefone" id="id_telefone" size=20></td>
+
+            </tr>
+
+            <tr>
+
+                <td>UF:</td>
+                <td>
+                    <select name="uf" id="id_uf">
+
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RR</option>
+                        <option>RO</option>
+                        <option>SP</option>
+                        <option>SC</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td><br>Nome de usuário:</td>
+                <td><br> <input type="text" name="nome_usuario"> </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Senha:</td>
+                <td> <input class="form" type="password" id="id_senha" name="senha"> </td>
+
+            </tr>
+
+            <tr>
+
+                <td><strong><br>Pedido</strong><br><br></td>
+            </tr>
+
+            <tr>
+
+                <td>Qual é a ocasião?<br></td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="ocasiao"> Agradecimento
+                    <input type="radio" name="ocasiao"> Amizade
+                    <input type="radio" name="ocasiao"> Amor
+                    <input type="radio" name="ocasiao"> Aniversário
+                    <input type="radio" name="ocasiao"> Desculpas
+                    <input type="radio" name="ocasiao"> Maternidade
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <br><br>Escolha os tipos de flores que mais lhe agradam.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" name="flores"> Rosas
+                    <input type="checkbox" name="flores"> Orquídeas
+                    <input type="checkbox" name="flores"> Flores do campo
+                    <input type="checkbox" name="flores"> Astromélias
+                    <input type="checkbox" name="flores"> Violetas
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> <br>Tem alguma restrição de espécie de flor ou cor?</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input size="80" type="text" name="input" id="restricao" placeholder="Ex: Rosas, Vermelho.">
+
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <br>Deseja inserir presentes junto à entrega? Se sim, marque as opções que deseja inserir.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" name="presentes"> Pelúcias
+                    <input type="checkbox" name="presentes"> Chocolates
+                    <input type="checkbox" name="presentes"> Almofadas
+                    <input type="checkbox" name="presentes"> Jóias
+
+                </td>
+            </tr>
+
+            <tr>
+                <td><br><strong>Mensagem para o cartão:</strong> <br>
+                <td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea Style="overflow-y: scroll; resize: none" cols="50" rows="6"> </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <input type="submit" value="Confirmar assinatura">
+                </td>
+
+            <tr>
+
+
+
+        </table>
+    </form>
+
+</body>
+
+</html>
