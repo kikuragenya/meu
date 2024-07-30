@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #f1e8e9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url("../img/fundo.jpg");
+}
+
+#superior {
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+input[type=text] {
+    margin-left: -450px;
+}
+
+#restricao {
+    margin-left: auto;
+}
+
+#id_email {
+    margin-left: -650px;
+}
+
+#id_cpf {
+    margin-left: -40px;
+}
+
+#id_endereco {
+    margin-left: -630px;
+}
+
+#id_telefone {
+    margin-left: -15px;
+}
+
+#id_uf {
+    margin-left: -590px;
+    width: 45px;
+}
+
+#id_senha {
+    margin-left: -450px;
+}
+
+input[type=radio] {
+    left: -6%;
+}
+
+select {
+    width: 455px;
+    left: 30%;
+}
